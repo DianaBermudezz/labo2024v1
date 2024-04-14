@@ -38,4 +38,3 @@ for( i in 1:154 ) dataset[ , paste0("canarito", i ) :=  runif( nrow(dataset)) ]
 pdf(file = "./arbol_canaritos.pdf", width=28, height=4)
 prp(modelo, extra=101, digits=5, branch=1, type=4, varlen=0, faclen=0)
 dev.off()
-
