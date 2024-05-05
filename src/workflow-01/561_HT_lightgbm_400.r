@@ -92,7 +92,7 @@ fganancia_lgbm_meseta <- function(probs, datos) {
     "prob" = probs,
     "gan" = ifelse(vlabels==1, 
                 ifelse(vpesos>1, 117000,-3000),
-                ifelse(vpesos>1 , -117000, 0))
+                ifelse(vpesos>1 , -6000, 0))
   ))
 
   setorder(tbl, -prob)
